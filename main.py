@@ -44,7 +44,7 @@ while True:
                 color=white
             x=col*size_block+(col+1)*margin
             y=row*size_block+(row+1)*margin
-            pygame.draw.rect(screen, color, (x,y,size_block, size_block))
+
 
     pygame.display.update()
 
